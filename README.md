@@ -24,7 +24,7 @@ A full-stack Text-to-SQL chatbot for TVS Dealer Management System (DMS), enablin
 1. Install dependencies:
    cd fastapi_backend
    pip install -r requirements.txt
-2. Create dataset sccording to the database schema, refer text2sql_dataset.jsonl.
+2. Create dataset according to the database schema, refer text2sql_dataset.jsonl.
 3. Run train_model.py fro fine tuning the model.
 4. Configure your SQL Server connection in main.py.
 5. Start the FastAPI server:
