@@ -27,10 +27,10 @@ class QueryRequest(BaseModel):
 # Database connection strings
 DMSConnection = (
     "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=10.42.57.36;"
-    "Database=OnlineDMS_Staging;"
-    "UID=dmsuser;"
-    "PWD=Dms2023#;"
+    "Server=1x.xx.x7.3x;"
+    "Database=xxxxxxxxx;"
+    "UID=xxxxxxx;"
+    "PWD=xxxxxxx;"
     "Pooling=True;"
     "Max Pool Size=2500;"
     "Connect Timeout=200;"
@@ -38,10 +38,10 @@ DMSConnection = (
 )
 DMSConnReport = (
     "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=10.42.57.36;"
-    "Database=OnlineDMS_Staging;"
-    "UID=dmsuser;"
-    "PWD=Dms2023#;"
+    "Server=1x.xx.x7.3x;"
+    "Database=xxxxxxxxxxxx;"
+    "UID=xxxxxxxxx;"
+    "PWD=xxxxxx;"
     "ApplicationIntent=ReadOnly;"
     "MultiSubnetFailover=True;"
     "Pooling=True;"
