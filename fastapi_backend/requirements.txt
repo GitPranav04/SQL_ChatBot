@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+torch
+pydantic
+pyodbc
+python-dotenv
+datasets
+pandas
+accelerate

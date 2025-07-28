@@ -1,0 +1,22 @@
+<div class="container">
+  <header>
+    <div class="dealer-info">
+      <div>
+        <h1>TVS Dealership Management System</h1>
+        <p>{{ dealerName }} - {{ dealerLocation }}</p>
+      </div>
+      <div>
+        <!-- Using external SVG file from assets folder -->
+        <img src="assets/tvs-logo.svg" alt="TVS Logo" height="60">
+      </div>
+    </div>
+  </header>
+
+  <div class="dashboard">
+    <div class="card" *ngFor="let stat of dashboardStats">
+      <h3>{{ stat.title }}</h3>
+      <div class="stat">{{ stat.value }}</div>
+      <p>{{ stat.description }}</p>
+    </div>
+  </div>
+</div>
