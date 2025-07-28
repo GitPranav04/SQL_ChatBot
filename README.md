@@ -1,4 +1,4 @@
-# TVS SQL ChatBot
+# TVS DMS ChatBot
  
 A full-stack Text-to-SQL chatbot for TVS Dealer Management System (DMS), enabling natural language queries to a SQL Server database. Built with FastAPI (Python) backend and Angular frontend.
  
